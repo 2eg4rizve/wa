@@ -4,10 +4,13 @@ let div=null;
 window.onload = () => {
     start();
     for(let i=0;i<100;i++)
-    generateToastMassage(`Attentions!. Trouser House virus attack.Restarted Your PC.`);
+    {
+        generateToastMassage(`Attentions!. Trojan horse virus attack.Restarted Your PC.`);
+    }
+   
    
 };
-generateToastMassage(`Attentions!. Trouser House virus attack.Restarted Your PC.`);
+generateToastMassage(`Attentions!. Trojan horse virus attack.Restarted Your PC.`);
 
 function start() {
     const root = document.getElementById('root');
@@ -34,7 +37,7 @@ function start() {
             div=null;
         }
 
-        generateToastMassage(`Attentions!. Trouser House virus attack.Restarted Your PC.`);
+        generateToastMassage(`Attentions!. Trojan horse virus attack.Restarted Your PC.`);
     });
 }
 
